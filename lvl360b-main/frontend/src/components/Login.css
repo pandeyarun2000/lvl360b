@@ -1,0 +1,7 @@
+/* Add this to your CSS file */
+.logoImage {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto 20px; /* Center the logo and add margin below */
+}

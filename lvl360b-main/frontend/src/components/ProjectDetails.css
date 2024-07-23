@@ -1,0 +1,61 @@
+.projectDetailsContainer {
+  padding: 20px;
+}
+
+.projectTitle {
+  margin-bottom: 20px;
+}
+
+.projectDetailsContent, .checklistContent, .PortfolioInformationContent {
+  margin-top: 20px;
+}
+
+.projectDetailItem {
+  margin-bottom: 20px;
+}
+
+.timeline {
+  position: relative;
+  height: 40px;
+  margin-top: 10px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+}
+
+.marker {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #2196f3;
+}
+
+.monthLabel {
+  position: absolute;
+  top: 100%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.monthYearLabel {
+  padding: 2px 4px;
+  background-color: #2196f3;
+  color: white;
+  border-radius: 3px;
+}
+
+.editButton {
+  margin-top: 20px;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.listItemIcon {
+  margin-right: 5px;
+}
