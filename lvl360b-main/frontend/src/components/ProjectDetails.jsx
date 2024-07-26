@@ -134,6 +134,7 @@ const ProjectDetails = () => {
             <Tab label="Portfolio Information" />
             <Tab label="Service Providers" />
             <Tab label="Logs" />
+            <Tab label="Q&A" />
           </Tabs>
           {tabIndex === 0 && (
             <Box className="projectDetailsContent">

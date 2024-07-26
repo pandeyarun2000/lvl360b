@@ -94,7 +94,7 @@ export default function Navbar(props) {
                 <ListItemIcon>
                   <QuestionMarkIcon />
                 </ListItemIcon>
-                <ListItemText primary={"Questions"} />
+                <ListItemText primary={"Communication"} />
               </ListItemButton>
             </ListItem>
 
