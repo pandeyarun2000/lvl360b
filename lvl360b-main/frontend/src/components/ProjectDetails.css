@@ -6,7 +6,9 @@
   margin-bottom: 20px;
 }
 
-.projectDetailsContent, .checklistContent, .PortfolioInformationContent {
+.projectDetailsContent, 
+.checklistContent, 
+.PortfolioInformationContent {
   margin-top: 20px;
 }
 
@@ -14,36 +16,22 @@
   margin-bottom: 20px;
 }
 
-.timeline {
-  position: relative;
-  height: 40px;
-  margin-top: 10px;
-  background-color: #e0e0e0;
-  border-radius: 4px;
+/* Styles for Status, Start Date, and End Date Card */
+.projectDatesCard {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 20px; 
 }
 
-.marker {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background-color: #2196f3;
+.projectDatesCard .project-details-label {
+  font-weight: 600;
+  color: #555; 
 }
 
-.monthLabel {
-  position: absolute;
-  top: 100%;
-  transform: translateX(-50%);
-  white-space: nowrap;
-  margin-top: 5px;
-  font-size: 12px;
-}
-
-.monthYearLabel {
-  padding: 2px 4px;
-  background-color: #2196f3;
-  color: white;
-  border-radius: 3px;
+.projectDatesCard .project-details-value {
+  color: #333; 
 }
 
 .editButton {
@@ -58,4 +46,50 @@
 
 .listItemIcon {
   margin-right: 5px;
+}
+
+/* Styles for the progress graph container */
+.progressGraphContainer {
+  margin-top: 20px;
+}
+
+/* Optional: Customize the appearance of the graph */
+.recharts-cartesian-grid line {
+  stroke: #f5f5f5;
+}
+
+.recharts-tooltip-wrapper {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+}
+
+.recharts-tooltip-item {
+  color: white;
+}
+
+.recharts-legend-wrapper {
+  font-size: 12px;
+}
+
+/* Tab Styles */
+.projectDetailsContainer .MuiTabs-root { 
+  background-color: #f5f5f5; /* Light gray background */
+  border-radius: 8px; 
+}
+
+.projectDetailsContainer .MuiTabs-indicator {
+  background-color: #2196f3; /* Primary blue for active tab */
+  height: 4px;
+}
+
+.projectDetailsContainer .MuiTab-root {
+  text-transform: none; /* Remove uppercase transformation */
+  font-weight: 500;
+  color: #666; /* Dark gray for inactive tabs */
+  padding: 10px 20px;
+  min-width: 120px; 
+}
+
+.projectDetailsContainer .MuiTab-root.Mui-selected {
+  color: #2196f3; /* Primary blue for active tab */
 }

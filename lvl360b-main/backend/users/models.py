@@ -68,6 +68,7 @@ class Project(models.Model):
     description = models.TextField(null=True, blank=True)
     start_date = models.DateField(null=True, blank=True)
     end_date = models.DateField(null=True, blank=True)
+    
     requirements = models.TextField(null=True, blank=True)
     geographies = models.CharField(max_length=100, null=True, blank=True)
     service_scope = models.TextField(null=True, blank=True)
